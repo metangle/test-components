@@ -99,9 +99,9 @@ export default {
           preRes = '平';
         }
         this.result = {
-          x: x.toFixed(3),
-          y: y.toFixed(3),
-          x_y: x_y.toFixed(3), // |x - y|
+          x: x.toFixed(16),
+          y: y.toFixed(16),
+          x_y: x_y.toFixed(16), // |x - y|
           preRes // 主胜 平 客胜
         }
       },
